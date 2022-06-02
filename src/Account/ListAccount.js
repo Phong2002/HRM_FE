@@ -37,7 +37,7 @@ function ListAccount() {
 
     const [data, setData] = useState([])
 
-    const [paging, setPaging] = useState();
+    const [paging, setPaging] = useState(1);
 
     const [totalPages, setTotalPages] = useState(0);
 
