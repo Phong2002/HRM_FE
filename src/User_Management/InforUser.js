@@ -174,7 +174,7 @@ function InforUser(props) {
 
           <li className="block">
             <label className="label-profile" htmlFor="workStartDate">Ngày bắt đầu làm việc</label>
-            {!toggleWorkStartDate ? <p className="content-input">{workStartDate}</p> : <input type="date" id="workStartDate" className="input-profile" value={workStartDate} />}
+            {!toggleWorkStartDate ? <p className="content-input">{workStartDate}</p> : <input type="date" id="workStartDate" className="input-profile" value={workStartDate} onChange={e => setWorkStartDate(e.target.value)} />}
             <IconFix toggle={toggleWorkStartDate} setToggle={setToggleWorkStartDate} />
 
           </li>
