@@ -23,7 +23,7 @@ function SalaryEmployeePage() {
 
     const [data, setData] = useState([])
     const [totalPages, setTotalPages] = useState(0);
-    const [paging, setPaging] = useState();
+    const [paging, setPaging] = useState(1);
     const [openModal, setOpenModal] = useState(false);
     const [startDate, setStartDate] = useState("")
     const [dateEnd, setDateEnd] = useState("")
