@@ -1,0 +1,71 @@
+
+
+.nav{
+    display:inline-block !important;
+   margin-left:20px
+}
+
+.nav button{
+padding: 10px;
+font-size:18px;
+font-weight:500;
+color:#ececec;
+}
+
+.nav a:hover{
+    background-color:rgb(2, 47, 248);
+    font-size: 20px;
+    color:white;
+    padding: 16px 16px;
+}
+
+.logo{
+    background-image: url("https://giaovienvietnam.vn/wp-content/uploads/2021/02/download.png");
+    width:60px;
+    height: 20px;
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.head-nav {
+    background-image: url(https://cdn.discordapp.com/attachments/910012517718302731/980008528490160178/unknown.png);
+    background-color: black;
+    background-size: cover; 
+    display: block;
+}
+
+.logout{
+float: right;
+cursor: pointer;
+margin: 10px;
+color: white;
+}
+
+.logout:hover{
+color: black;   
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 5px;
+}
+
+.Mui-selected{
+    color: rgb(0, 255, 153) !important;
+    font-weight:500 !important
+}
+
+.pad0{
+    padding:0 !important;
+}
+
+.pad0 tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+  }

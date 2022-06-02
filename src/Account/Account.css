@@ -1,0 +1,57 @@
+.req-confirm {
+    margin-bottom:5px;
+    border-radius: 5px;
+    color: #FFF;
+    background: #44CC44;
+    padding: 10px 15px;
+    box-shadow: 0 3px 0 0 #2EA62E;
+    display: inline-block;
+  }
+  .req-confirm:hover {
+    background: #6FE76F;
+    box-shadow: 0 3px 0 0 #7ED37E;
+  }
+  .req-refuse {
+    border-radius: 5px;
+    color: #FFF;
+    background: rgb(255, 0, 0);
+    padding: 10px 15px;
+    box-shadow: 0 3px 0 0 #CB4949;
+    display: inline-block;
+  }
+  .req-refuse:hover {
+    background: rgb(255, 87, 87);
+    box-shadow: 0 3px 0 0 #EF8282;
+  }
+
+  .req-content {
+    display: inline-block;
+    margin-right:50px;
+    margin-left:50px;
+  }
+  
+  .request{
+    margin:10px 200px;
+    background-color: rgba(199, 190, 190, 0.895);
+    border-radius: 10px;
+    height:50px;
+    text-align: center;
+  }
+
+  .req-confirm,.req-refuse{
+    text-align: center;
+    margin:0 25px;
+    float:right;
+    height:48px;
+    justify-content: center;
+  }
+
+  .button-tog{
+    margin : 3px 2px;
+  }
+
+
+
+  .account .MuiBadge-badge{
+    background-color: red !important;
+  }
