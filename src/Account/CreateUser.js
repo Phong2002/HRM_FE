@@ -147,10 +147,9 @@ function CreateUser(props) {
                 <input type="text" id="password" className="input-profile" value={password} onChange={e => setPassword(e.target.value)} required />
             </li>
 
-            <li className="block">
+             <li className="block">
                 <label className="label-profile" htmlFor="workStartDate">Ngày bắt đầu làm việc</label>
-                <input type="date" id="workStartDate" className="input-profile" value={workStartDate} />
-
+                <input type="date" id="workStartDate" className="input-profile" value={workStartDate} onChange={e => setWorkStartDate(e.target.value)}/>
             </li>
 
             <li className="block">
