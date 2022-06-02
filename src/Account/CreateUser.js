@@ -211,7 +211,7 @@ function CreateUser(props) {
                     color="primary"
                     onClick={Create}
                 >
-                    Tạo phòng ban
+                    Tạo tài khoản
 
                 </Button>
                 {' '}
