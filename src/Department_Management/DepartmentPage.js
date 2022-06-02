@@ -85,7 +85,6 @@ function DepartmentPage() {
       const resultx = result.data;
       setdata(resultx.content)
       setTotalPages(resultx.totalPages)
-      console.log(resultx.content)
     } catch (error) {
       console.error(error);
     }

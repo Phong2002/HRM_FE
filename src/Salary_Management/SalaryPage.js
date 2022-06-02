@@ -141,7 +141,6 @@ function SalaryPage() {
                 ":" + (createEndTime.getMinutes() >= 10 ? createEndTime.getMinutes() : "0" + createEndTime.getMinutes()) + ":00" : "",
             "workday": createDay ? `${createDay.getYear() + 1900}-${createDay.getMonth() >= 10 ? createDay.getMonth() + 1 : "0" + (createDay.getMonth() + 1)}-${createDay.getDate() >= 10 ? createDay.getDate() : "0" + createDay.getDate()}` : ""
         });
-        console.log(data)
         var config = {
             method: 'post',
             url: 'https://backend-hrm.herokuapp.com/api/v1/timekeeping',
@@ -160,7 +159,6 @@ function SalaryPage() {
             })
             .catch(function (error) {
                 toastFail(`Chấm công cho nhân viên ${createUserId} thất bại !`)
-                console.log(error);
             });
     }
 
@@ -190,7 +188,6 @@ function SalaryPage() {
                 getData()
             })
             .catch(function (error) {
-                console.log(error);
                 toastFail(`Thưởng / Phạt cho nhân viên ${RPUserId} thất bại !`)
             });
     }
@@ -229,7 +226,7 @@ function SalaryPage() {
                         renderInput={(params) => <TextField {...params} helperText={null} className="endTime" />}
                     />
                 </LocalizationProvider>
-                <div className="buttonFilter" onClick={() => { getData(); console.log(startDate); }} > <FaFilter /></div>
+                <div className="buttonFilter" onClick={() => { getData();}} > <FaFilter /></div>
                 <div className="buttonFilter" onClick={handleResetFilter} ><RiFilterOffFill /></div>
                 <Button color="success" onClick={() => setModalCreateTimekeeping(true)}>Chấm công</Button>
                 <Button color="success" onClick={() => setCreateRewardPunish(true)}>Thưởng/Phạt</Button>

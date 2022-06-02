@@ -41,7 +41,7 @@ function CreateUser(props) {
     const [salary, setSalary] = useState();
     const [idCard, setIdCard] = useState();
     const [departmentId, setDepartmentId] = useState();
-    const [classify, setClassify] = useState("chinh thuc");
+    const [classify, setClassify] = useState("chính thức");
     const [department, setDepartment] = useState([])
 
     async function DataDepartment() {
@@ -170,7 +170,7 @@ function CreateUser(props) {
 
             <li className="block">
                 <label className="label-profile" htmlFor="department">Phòng ban</label>
-                <select id="departments" className="input-profile" value={departmentId} onChange={e => { setDepartmentId(e.target.value); console.log(e.target.value) }}>
+                <select id="departments" className="input-profile" value={departmentId} onChange={e => { setDepartmentId(e.target.value); }}>
                     {department.map((value, index) => <option value={value.id}>{value.name}</option>)}
                 </select>
             </li>

@@ -105,7 +105,7 @@ function SalaryEmployeePage() {
                         renderInput={(params) => <TextField {...params} helperText={null} className="endTime" />}
                     />
                 </LocalizationProvider>
-                <div className="buttonFilter" onClick={() => { getData(); console.log(startDate); }} > <FaFilter /></div>
+                <div className="buttonFilter" onClick={() => { getData(); }} > <FaFilter /></div>
                 <div className="buttonFilter" onClick={handleResetFilter} ><RiFilterOffFill /></div>
             </div>
         </div>

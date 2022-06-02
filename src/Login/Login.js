@@ -42,14 +42,12 @@ function Login (Props) {
       localStorage.setItem('ROLE', result.data.role);
       localStorage.setItem('TOKEN',token);
       localStorage.setItem('ID',result.data.id);
-      console.log("dang nhap thanh cong");
       setLogins(true);
       setOpenBackdrop(false)
       navigate("../")
     }
     else {
       setLogins(false)
-      console.log("dang nhap that bai")
       setOpenBackdrop(false)
     }
 
