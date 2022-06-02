@@ -146,7 +146,11 @@ function InforUser(props) {
 
           <li className="block">
             <label htmlFor="gender" className="label-profile" >Giới tính</label>
-            {toggleGender ? <input type="text" id="gender" className="input-profile" value={gender} onChange={e => setGender(e.target.value)} required /> : <p className="content-input">{gender}</p>}
+            {toggleGender ? <select id="gender" className="input-profile" value={gender} onChange={e => setGender(e.target.value)} required>
+                    <option value="nam">Nam</option>
+                    <option value="nữ">Nữ</option>
+                    <option value="khác">Khác</option>
+                </select> : <p className="content-input">{gender}</p>}
             <IconFix toggle={toggleGender} setToggle={setToggleGender} />
           </li>
 
