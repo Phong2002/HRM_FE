@@ -48,7 +48,7 @@ const [contentToUser,setContentToUser] = useState("")
 
 // filter 
 
-const [paging,setPaging] = useState(1);
+const [paging,setPaging] = useState();
 
 
 const [totalPages,setTotalPages] = useState(0);
