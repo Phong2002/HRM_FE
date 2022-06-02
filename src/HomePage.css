@@ -1,0 +1,28 @@
+
+
+.home{
+    background-color: #ececec;
+    padding-top:20px
+    
+}
+
+.introduce{
+    width:1000px;
+    margin: 10px 260px;
+    border: 1px solid;
+    border-radius:10px;
+    border-color: rgb(219, 219, 219);
+    background-color: #fff;
+}
+
+.title-intro{
+    margin:20px;
+    font-size: 20px;
+    font-weight:600;
+    color:#1d1c46;
+}
+
+.content-intro{
+    margin:20px;
+    
+}

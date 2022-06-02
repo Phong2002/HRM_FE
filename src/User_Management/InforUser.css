@@ -1,0 +1,103 @@
+.Infor-container{
+    width: 100%;
+    height: 100%;
+}
+
+.Infor-col-1{
+    background-color: #E2E8F0;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.Infor-col-2{
+    background-color: #E3E7EC;
+    width:70%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.Infor-Avatar{
+width: 200px;
+height:200px;
+margin:100px;
+border-radius: 50%;
+border: 5px solid rgb(151, 150, 150)
+}
+
+.Infor-Avatar{
+    margin-bottom: 50px !important;
+}
+
+.Infor-Name{
+    font-size:18px;
+}
+
+.input-profile{
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
+    margin-left:30px;
+    width:495px;
+    height:30px;
+    border-radius: 5px;
+}
+
+.button-close{
+    clear:right;
+    margin-left:97%;
+    display: block;
+    font-size:30px;
+    color:red;
+    margin-bottom: 15px;
+    cursor: pointer;
+    opacity:0.6;
+}
+
+.button-close:hover{
+    opacity:1;
+}
+
+.block{
+    display: block;
+
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: white;
+    margin: 5px;
+}
+
+.label-profile{
+   display: inline-block;
+   width: 180px;
+   text-align: center;
+   font-weight: 750;
+}
+
+.col-inf{
+    margin-top:30px
+}
+
+.content-input{
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
+    margin-left:30px;
+    width:500px;
+    height:30px;
+    border-radius: 5px;
+}
+
+.fix{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.filter_rm input[type="date"]{
+ width:180px;
+ margin: 5px;
+}
